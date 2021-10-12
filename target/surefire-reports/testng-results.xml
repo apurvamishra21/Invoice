@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="102123" started-at="2021-10-09T14:07:42Z" finished-at="2021-10-09T14:09:24Z">
+    <groups>
+      <group name="system">
+        <method signature="DeleteInvoiceTest.deleteInvoice()[pri:0, instance:com.vtiger.testcripts.DeleteInvoiceTest@51efea79]" name="deleteInvoice" class="com.vtiger.testcripts.DeleteInvoiceTest"/>
+      </group> <!-- system -->
+      <group name="smoke">
+        <method signature="CreateInvoiceTest.Invoice()[pri:0, instance:com.vtiger.testcripts.CreateInvoiceTest@5034c75a]" name="Invoice" class="com.vtiger.testcripts.CreateInvoiceTest"/>
+        <method signature="DeleteInvoiceTest.deleteInvoice()[pri:0, instance:com.vtiger.testcripts.DeleteInvoiceTest@51efea79]" name="deleteInvoice" class="com.vtiger.testcripts.DeleteInvoiceTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="102123" started-at="2021-10-09T14:07:42Z" finished-at="2021-10-09T14:09:24Z">
+      <class name="com.vtiger.testcripts.DeleteInvoiceTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.vtiger.testcripts.DeleteInvoiceTest@51efea79]" name="launchBrowser" is-config="true" duration-ms="1777" started-at="2021-10-09T14:07:42Z" finished-at="2021-10-09T14:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtiger.testcripts.DeleteInvoiceTest@51efea79]" name="login" is-config="true" duration-ms="5453" started-at="2021-10-09T14:07:44Z" finished-at="2021-10-09T14:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteInvoice()[pri:0, instance:com.vtiger.testcripts.DeleteInvoiceTest@51efea79]" name="deleteInvoice" duration-ms="14735" started-at="2021-10-09T14:07:50Z" finished-at="2021-10-09T14:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteInvoice -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtiger.testcripts.DeleteInvoiceTest@51efea79]" name="logout" is-config="true" duration-ms="169" started-at="2021-10-09T14:08:04Z" finished-at="2021-10-09T14:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtiger.testcripts.DeleteInvoiceTest@51efea79]" name="closeBrowser" is-config="true" duration-ms="678" started-at="2021-10-09T14:08:04Z" finished-at="2021-10-09T14:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.testcripts.DeleteInvoiceTest -->
+      <class name="com.vtiger.testcripts.CreateOrganizationTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.vtiger.testcripts.CreateOrganizationTest@51081592]" name="launchBrowser" is-config="true" duration-ms="1252" started-at="2021-10-09T14:09:00Z" finished-at="2021-10-09T14:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtiger.testcripts.CreateOrganizationTest@51081592]" name="login" is-config="true" duration-ms="5491" started-at="2021-10-09T14:09:01Z" finished-at="2021-10-09T14:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="organization()[pri:0, instance:com.vtiger.testcripts.CreateOrganizationTest@51081592]" name="organization" duration-ms="16985" started-at="2021-10-09T14:09:07Z" finished-at="2021-10-09T14:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organization -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtiger.testcripts.CreateOrganizationTest@51081592]" name="logout" is-config="true" duration-ms="161" started-at="2021-10-09T14:09:24Z" finished-at="2021-10-09T14:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtiger.testcripts.CreateOrganizationTest@51081592]" name="closeBrowser" is-config="true" duration-ms="679" started-at="2021-10-09T14:09:24Z" finished-at="2021-10-09T14:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.testcripts.CreateOrganizationTest -->
+      <class name="com.vtiger.testcripts.CreateInvoiceTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.vtiger.testcripts.CreateInvoiceTest@5034c75a]" name="launchBrowser" is-config="true" duration-ms="1257" started-at="2021-10-09T14:08:05Z" finished-at="2021-10-09T14:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtiger.testcripts.CreateInvoiceTest@5034c75a]" name="login" is-config="true" duration-ms="4883" started-at="2021-10-09T14:08:06Z" finished-at="2021-10-09T14:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Invoice()[pri:0, instance:com.vtiger.testcripts.CreateInvoiceTest@5034c75a]" name="Invoice" duration-ms="22625" started-at="2021-10-09T14:08:11Z" finished-at="2021-10-09T14:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoice -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtiger.testcripts.CreateInvoiceTest@5034c75a]" name="logout" is-config="true" duration-ms="173" started-at="2021-10-09T14:08:34Z" finished-at="2021-10-09T14:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtiger.testcripts.CreateInvoiceTest@5034c75a]" name="closeBrowser" is-config="true" duration-ms="679" started-at="2021-10-09T14:08:34Z" finished-at="2021-10-09T14:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.testcripts.CreateInvoiceTest -->
+      <class name="com.vtiger.testcripts.EditInvoiceTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.vtiger.testcripts.EditInvoiceTest@396a51ab]" name="launchBrowser" is-config="true" duration-ms="1171" started-at="2021-10-09T14:08:35Z" finished-at="2021-10-09T14:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtiger.testcripts.EditInvoiceTest@396a51ab]" name="login" is-config="true" duration-ms="5123" started-at="2021-10-09T14:08:36Z" finished-at="2021-10-09T14:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="editInvoice()[pri:0, instance:com.vtiger.testcripts.EditInvoiceTest@396a51ab]" name="editInvoice" duration-ms="17965" started-at="2021-10-09T14:08:41Z" finished-at="2021-10-09T14:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editInvoice -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtiger.testcripts.EditInvoiceTest@396a51ab]" name="logout" is-config="true" duration-ms="174" started-at="2021-10-09T14:08:59Z" finished-at="2021-10-09T14:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtiger.testcripts.EditInvoiceTest@396a51ab]" name="closeBrowser" is-config="true" duration-ms="669" started-at="2021-10-09T14:08:59Z" finished-at="2021-10-09T14:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.testcripts.EditInvoiceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

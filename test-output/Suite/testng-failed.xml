@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.vtiger.testcripts.EditInvoiceTest">
+        <methods>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="editInvoice"/>
+        </methods>
+      </class> <!-- com.vtiger.testcripts.EditInvoiceTest -->
+      <class name="com.vtiger.testcripts.DeleteInvoiceTest">
+        <methods>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="deleteInvoice"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testcripts.DeleteInvoiceTest -->
+      <class name="com.vtiger.testcripts.CreateInvoiceTest">
+        <methods>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="Invoice"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testcripts.CreateInvoiceTest -->
+      <class name="com.vtiger.testcripts.CreateOrganizationTest">
+        <methods>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="organization"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testcripts.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
