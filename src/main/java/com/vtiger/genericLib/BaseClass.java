@@ -56,6 +56,8 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}*/
+	
+	@BeforeClass(alwaysRun = true)
 	public void launchBrowser()
 	{
 		System.out.println("Browser launch");
