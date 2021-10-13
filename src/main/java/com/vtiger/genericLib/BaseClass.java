@@ -28,7 +28,7 @@ public class BaseClass {
 	public JavaCommonUtils jc = new JavaCommonUtils();
 	
 	
-	@Parameters("browser")
+	/*@Parameters("browser")
 	@BeforeClass(alwaysRun = true)
 	public void launchBrowser(String browser) throws IOException
 	{
@@ -55,8 +55,8 @@ public class BaseClass {
 		monitorDriver=driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	}
-	/*public void launchBrowser()
+	}*/
+	public void launchBrowser()
 	{
 		System.out.println("Browser launch");
 		System.setProperty(DataConstants.CHROMEKEY, DataConstants.CHROMEVALUE);
@@ -65,7 +65,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-	}*/
+	}
 	@BeforeMethod(alwaysRun = true)
 	public void login() throws IOException
 	{

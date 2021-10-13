@@ -20,7 +20,7 @@ import com.vtiger.genericLib.Retry;
 @Listeners(com.vtiger.genericLib.ListenerImplementation.class)
 public class DeleteInvoiceTest extends BaseClass {
 	
-	@Test(groups = {"system"})
+	/*@Test(groups = {"system"})
 	public void deleteInvoice()
 	{
 		
@@ -71,11 +71,11 @@ public class DeleteInvoiceTest extends BaseClass {
 		}
 		int actual = countBeforeDelete;
 		int expected = countAfterDelete;
-		Assert.assertNotEquals(actual, expected);
+		Assert.assertNotEquals(actual, expected);*/
 
 
 
-	/*@Test(retryAnalyzer = Retry.class)
+	@Test(retryAnalyzer = Retry.class)
 	public void deleteInvoice()
 	{
 		
@@ -133,7 +133,7 @@ public class DeleteInvoiceTest extends BaseClass {
 //			System.out.println(invoiceName + " deleted successfully");
 //		}else {
 //			System.out.println(invoiceName +  "not deleted successfully");
-//		}*/
+//		}
 	}
 }
 

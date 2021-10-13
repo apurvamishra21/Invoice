@@ -25,7 +25,7 @@ import com.vtiger.genericLib.WebDriverCommonUtils;
 @Listeners(com.vtiger.genericLib.ListenerImplementation.class)
 public class CreateInvoiceTest extends BaseClass{
 	
-	//testNGgroup execution
+	/*//testNGgroup execution
 	@Test(groups = {"smoke"})
 	public void Invoice() throws  IOException
 	{
@@ -126,7 +126,7 @@ public class CreateInvoiceTest extends BaseClass{
 //		}
 		
 		
-	}
+	}*/
 	
 	
 	
@@ -140,7 +140,7 @@ public class CreateInvoiceTest extends BaseClass{
 	
 	//original TestScript
 	
-	/*@Test(retryAnalyzer = Retry.class)
+	@Test(retryAnalyzer = Retry.class)
 	public void Invoice() throws  IOException
 	{
 	//	String mainId = driver.getWindowHandle();
@@ -237,10 +237,11 @@ public class CreateInvoiceTest extends BaseClass{
 //			System.out.println("Invoice created successfully");
 //		}else {
 //			System.out.println("Invoice not created successfully");
-//		}*/
+//		}
 		
 		
 	}
+}
 	
 	
 	

@@ -19,7 +19,7 @@ import com.vtiger.genericLib.Retry;
 public class CreateOrganizationTest extends BaseClass{
 	
 	//testNG group execution
-	@Test(groups = {"smoke" , "system"})
+	/*@Test(groups = {"smoke" , "system"})
 	public void organization() throws EncryptedDocumentException, IOException, InterruptedException {
 		
 		Home hm=new Home(driver);
@@ -43,11 +43,11 @@ public class CreateOrganizationTest extends BaseClass{
 		
 		String actual = oip.getOrganizationHeaderInformation().getText();
 		String expected = organizationName;
-		Assert.assertTrue(actual.contains(expected));
+		Assert.assertTrue(actual.contains(expected));*/
 		
 		
 	//normal execution
-	/*@Test(retryAnalyzer = Retry.class)
+	@Test(retryAnalyzer = Retry.class)
 	public void organization() throws EncryptedDocumentException, IOException, InterruptedException {
 		
 		Home hm=new Home(driver);
@@ -72,7 +72,7 @@ public class CreateOrganizationTest extends BaseClass{
 		String actual = oip.getOrganizationHeaderInformation().getText();
 		String expected = organizationName;
 		Assert.assertTrue(actual.contains(expected));
-		//Thread.sleep(3000);*/
+		//Thread.sleep(3000);
 		
 
 
